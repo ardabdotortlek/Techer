@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.techer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Techer">
+        <activity android:name=".PostDetail" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".AddPost" />
+        <activity android:name=".Forum" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LevelPages.hardware_question_final" />
+        <activity android:name=".MainMenuP.UserPage" />
+        <activity android:name=".LevelPages.hardware_question14" />
+        <activity android:name=".LevelPages.hardware_question13" />
+        <activity android:name=".LevelPages.hardware_question12" />
+        <activity android:name=".LevelPages.hardware_question11" />
+        <activity android:name=".LevelPages.hardware_question10" />
+        <activity android:name=".LevelPages.hardware_question9" />
+        <activity android:name=".LevelPages.hardware_question8" />
+        <activity android:name=".LevelPages.hardware_question7" />
+        <activity android:name=".LevelPages.hardware_question6" />
+        <activity android:name=".LevelPages.hardware_question5" />
+        <activity android:name=".LevelPages.hardware_question4" />
+        <activity android:name=".LevelPages.hardware_question3" />
+        <activity android:name=".LevelPages.hardware_question2" />
+        <activity android:name=".LevelPages.hardware_question1" />
+        <activity android:name=".Register"/>
+        <activity android:name=".LevelPages.TryPage" />
+        <activity android:name=".MainMenuP.HardwarePage" />
+        <activity android:name=".InformationPages.keyboardmouse_information" />
+        <activity android:name=".InformationPages.harddiskdrive_information" />
+        <activity android:name=".InformationPages.opticaldiscdrive_information" />
+        <activity android:name=".InformationPages.powersupplyunit_information" />
+        <activity android:name=".InformationPages.expansioncards_information" />
+        <activity android:name=".InformationPages.ram_information" />
+        <activity android:name=".InformationPages.cpu_information" />
+        <activity android:name=".InformationPages.motherboard_information" />
+        <activity android:name=".InformationPages.monitor_information" />
+        <activity android:name=".LevelPages.variable_level2" />
+        <activity android:name=".InformationPages.temp_info" />
+        <activity android:name=".MainMenuP.CreditsPage" />
+        <activity android:name=".InformationPages.arrays_information" />
+        <activity android:name=".InformationPages.loops_information" />
+        <activity android:name=".InformationPages.statement_information" />
+        <activity android:name=".InformationPages.operations_information" />
+        <activity android:name=".InformationPages.variable_information" />
+        <activity android:name=".LevelPages.arrays_level5" />
+        <activity android:name=".LevelPages.arrays_level4" />
+        <activity android:name=".LevelPages.arrays_level3" />
+        <activity android:name=".LevelPages.arrays_level2" />
+        <activity android:name=".LevelPages.arrays_level1" />
+        <activity android:name=".LevelPages.loops_level5" />
+        <activity android:name=".LevelPages.loops_level4" />
+        <activity android:name=".LevelPages.loops_level3" />
+        <activity android:name=".LevelPages.loops_level2" />
+        <activity android:name=".LevelPages.loops_level1" />
+        <activity android:name=".LevelPages.statements_level1" />
+        <activity android:name=".LevelPages.statements_level5" />
+        <activity android:name=".LevelPages.statements_level4" />
+        <activity android:name=".LevelPages.statements_level3" />
+        <activity android:name=".LevelPages.statements_level2" />
+        <activity android:name=".LevelPages.operations_level5" />
+        <activity android:name=".LevelPages.operations_level4" />
+        <activity android:name=".LevelPages.operations_level3" />
+        <activity android:name=".LevelPages.operations_level2" />
+        <activity android:name=".LevelPages.operations_level1" />
+        <activity android:name=".LevelPages.variable_level5" />
+        <activity android:name=".LevelPages.variable_level4" />
+        <activity android:name=".LevelPages.variable_level3" />
+        <activity android:name=".LevelPages.variable_level1" />
+        <activity android:name=".MainMenuP.JavaPage" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+    </activity>
+
+    </application>
+
+</manifest>

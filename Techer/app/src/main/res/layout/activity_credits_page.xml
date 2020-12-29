@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuP.CreditsPage"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/creditsHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_menu_button"
+        android:text="Credits"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/creditsBox"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/level_button"
+        android:layout_below="@id/creditsHead"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/firstPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/creditsHead"
+        android:text="Cemil Mert Ozdemir \n
+Mail: cemil.ozdemir@ug.bilkent.edu.tr"
+        android:textColor="#E91E63"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/secondPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstPerson"
+        android:text="Arda Barış Örtlek \n
+Mail: baris.ortlek@ug.bilkent.edu.tr"
+        android:textColor="#FFC107"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/thirdPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondPerson"
+        android:text="Ahmet Tuna Baykal \n
+Mail: baykaltuna@outlook.com"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/fourthPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdPerson"
+        android:text="Hüseyin Uzun \n
+Mail: huseyin.uzun@ug.bilkent.edu.tr"
+        android:textColor="#00BCD4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/fifthPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fourthPerson"
+        android:text="Egemen Öztürk \n
+Mail: egemen.ozturk@ug.bilkent.edu.tr"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/sixthPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fifthPerson"
+        android:text="Efe Korkmazhan \n
+Mail: efe.korkmazhan@ug.bilkent.edu.tr"
+        android:textColor="#D30000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"/>
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_back_button"
+        />
+
+
+
+
+
+
+</RelativeLayout>

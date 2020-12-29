@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/questionBarTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:paddingRight="270dp"
+        android:paddingBottom="300dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/level_button"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:paddingEnd="350dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/questionLevelTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="@string/question_level"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp" />
+
+    <TextView
+        android:id="@+id/questionTF"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/question_string"
+        android:layout_marginStart="70dp"
+        android:textColor="#000"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/trueOption"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/questionBarTF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        tools:ignore="RtlSymmetry"
+        android:gravity="center_horizontal"
+        android:text="@string/correct"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/falseOption"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/trueOption"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        tools:ignore="RtlSymmetry"
+        android:gravity="center_horizontal"
+        android:text="@string/incorrect"
+        />
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_back_button"/>
+
+
+</RelativeLayout>

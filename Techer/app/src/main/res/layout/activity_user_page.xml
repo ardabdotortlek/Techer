@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuP.UserPage"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level_button"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/usernamePlaceholder"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/avatar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/info_button"
+        android:text="username"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/javaAchievements"
+        android:layout_width="170dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/level_button"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="Java Achievements"
+        android:textColor="#f5b042" />
+
+    <TextView
+        android:id="@+id/hardwareAchievements"
+        android:layout_width="170dp"
+        android:layout_height="300dp"
+        android:layout_toRightOf="@id/javaAchievements"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@id/javaAchievements"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/level_button"
+        android:textColor="#f5b042"
+        android:textSize="20sp"
+        android:text="Hardware Achievements"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_back_button"
+        />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/variable_achievement2"/>
+
+    <TextView
+        android:id="@+id/achievement1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image1"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_marginTop="100dp"
+        android:text=" Variables"
+        android:layout_marginLeft="3dp"
+        />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/operations_achievement_final2"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/achievement2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement1"
+        android:layout_toRightOf="@id/image2"
+        android:text="Operations"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/test_photo"/>
+
+    <TextView
+        android:id="@+id/achievement3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement2"
+        android:layout_toRightOf="@id/image3"
+        android:text="Statements"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/image_4"
+        />
+
+    <TextView
+        android:id="@+id/achievement4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement3"
+        android:layout_toRightOf="@id/image4"
+        android:text="Loops"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image4"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/image_55"
+        />
+
+    <TextView
+        android:id="@+id/achievement5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement4"
+        android:layout_toRightOf="@id/image5"
+        android:text="Arrays"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/image_6"
+        android:layout_toRightOf="@id/achievement1"
+
+        />
+
+    <TextView
+        android:id="@+id/achievement6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernamePlaceholder"
+        android:layout_toRightOf="@id/image6"
+        android:text="Beginner"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/image7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image6"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_77"
+        android:layout_toRightOf="@id/achievement1"
+        />
+
+    <TextView
+        android:id="@+id/achievement7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement6"
+        android:layout_toRightOf="@id/image7"
+        android:text="Medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/image7"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_8"
+        android:layout_toRightOf="@id/achievement1"
+        />
+
+    <TextView
+        android:id="@+id/achievement8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement7"
+        android:layout_toRightOf="@id/image8"
+        android:text="Expert"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/avatar_imagef"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/avatar_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        tools:ignore="DuplicateIds" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

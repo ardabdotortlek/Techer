@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuP.JavaPage"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz"
+        android:textColor="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="60sp"
+        android:background="@drawable/biggestheader"
+        />
+
+
+    <android.widget.Button
+        android:background="@drawable/information_enabled_selector"
+        android:textColor="#fff"
+        android:id="@+id/OperationsInfo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/operat_ons" />
+
+    <android.widget.Button
+        android:background="@drawable/information_enabled_selector"
+        android:textColor="#fff"
+        android:id="@+id/VariablesInfo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/var_ables"
+        android:layout_marginStart="10dp" />
+
+    <android.widget.Button
+        android:background="@drawable/information_enabled_selector"
+        android:textColor="#fff"
+        android:id="@+id/StatementsInfo"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OperationsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/statements"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <android.widget.Button
+        android:background="@drawable/information_enabled_selector"
+        android:textColor="#fff"
+        android:id="@+id/LoopsInfo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StatementsInfo"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/loops" />
+
+    <android.widget.Button
+        android:id="@+id/ArraysInfo"
+        android:layout_width="130dp"
+        android:background="@drawable/information_enabled_selector"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoopsInfo"
+        android:text="@string/arrays"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        />
+
+    <android.widget.Button
+        android:id="@+id/vLevel1"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/VariablesInfo"
+        android:layout_toEndOf="@id/VariablesInfo"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_1"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        style="s"
+        android:background="@drawable/level_button"
+        />
+
+    <android.widget.Button
+        android:id="@+id/vLevel2"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/vLevel1"
+        android:layout_toEndOf="@id/vLevel1"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_2"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+
+        android:id="@+id/vLevel3"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/vLevel2"
+        android:layout_toEndOf="@id/vLevel2"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_3"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+
+        android:id="@+id/vLevel4"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/vLevel3"
+        android:layout_toEndOf="@id/vLevel3"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_4"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/oLevel1"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/OperationsInfo"
+        android:layout_toEndOf="@id/OperationsInfo"
+        android:layout_above="@id/StatementsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_1"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/oLevel2"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/oLevel1"
+        android:layout_toEndOf="@id/oLevel1"
+        android:layout_above="@id/StatementsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_2"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/oLevel3"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/oLevel2"
+        android:layout_toEndOf="@id/oLevel2"
+        android:layout_above="@id/StatementsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_3"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/oLevel4"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/oLevel3"
+        android:layout_toEndOf="@id/oLevel3"
+        android:layout_above="@id/StatementsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_4"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/sLevel1"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/StatementsInfo"
+        android:layout_toEndOf="@id/StatementsInfo"
+        android:layout_above="@id/LoopsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_1"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/sLevel2"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/sLevel1"
+        android:layout_toEndOf="@id/sLevel1"
+        android:layout_above="@id/LoopsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_2"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/sLevel3"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/sLevel2"
+        android:layout_toEndOf="@id/sLevel2"
+        android:layout_above="@id/LoopsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_3"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/sLevel4"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/sLevel3"
+        android:layout_toEndOf="@id/sLevel3"
+        android:layout_above="@id/LoopsInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_4"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/lLevel1"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/LoopsInfo"
+        android:layout_toEndOf="@id/LoopsInfo"
+        android:layout_above="@id/ArraysInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_1"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/lLevel2"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/lLevel1"
+        android:layout_toEndOf="@id/lLevel1"
+        android:layout_above="@id/ArraysInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_2"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/lLevel3"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/lLevel2"
+        android:layout_toEndOf="@id/lLevel2"
+        android:layout_above="@id/ArraysInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_3"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/lLevel4"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/lLevel3"
+        android:layout_toEndOf="@id/lLevel3"
+        android:layout_above="@id/ArraysInfo"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_4"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/aLevel1"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/ArraysInfo"
+        android:layout_toEndOf="@id/ArraysInfo"
+        android:layout_below="@id/LoopsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_1"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/aLevel2"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/aLevel1"
+        android:layout_toEndOf="@id/aLevel1"
+        android:layout_below="@id/LoopsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_2"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/aLevel3"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/aLevel2"
+        android:layout_toEndOf="@id/aLevel2"
+        android:layout_below="@id/LoopsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_3"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <android.widget.Button
+        android:id="@+id/aLevel4"
+        android:layout_width="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/aLevel3"
+        android:layout_toEndOf="@id/aLevel3"
+        android:layout_below="@id/LoopsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/_4"
+        android:layout_marginStart="10dp"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_enable_selector"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/VariablesInfo"
+        android:layout_alignEnd="@id/VariablesInfo"
+        android:layout_alignRight="@id/VariablesInfo"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/learn"
+        android:textSize="25sp"
+        android:textColor="#f5b042"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/header"
+        android:layout_marginRight="50dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vLevel3"
+        android:layout_alignEnd="@id/vLevel4"
+        android:layout_alignRight="@id/VariablesInfo"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/try_yourself"
+        android:textSize="25sp"
+        android:textColor="#f5b042"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/header"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_back_button"
+        />
+
+    <android.widget.Button
+        android:id="@+id/vLevel5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/OperationsInfo"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/VariablesInfo"
+        android:layout_toEndOf="@id/VariablesInfo"
+        android:text="@string/ach_evement_quest_on"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_button"
+        android:layout_marginStart="10dp" />
+
+    <android.widget.Button
+        android:id="@+id/oLevel5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/StatementsInfo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/OperationsInfo"
+        android:layout_toEndOf="@id/OperationsInfo"
+        android:text="@string/ach_evement_quest_on"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_button"
+        android:layout_marginStart="10dp" />
+
+    <android.widget.Button
+        android:id="@+id/sLevel5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LoopsInfo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/StatementsInfo"
+        android:layout_toEndOf="@id/StatementsInfo"
+        android:text="@string/ach_evement_quest_on"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_button"
+        android:layout_marginStart="10dp" />
+
+
+    <android.widget.Button
+        android:id="@+id/lLevel5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StatementsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/StatementsInfo"
+        android:layout_toEndOf="@id/StatementsInfo"
+        android:text="@string/ach_evement_quest_on"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_button"
+        android:layout_marginStart="10dp" />
+
+    <android.widget.Button
+        android:id="@+id/aLevel5"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoopsInfo"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/StatementsInfo"
+        android:layout_toEndOf="@id/StatementsInfo"
+        android:text="@string/ach_evement_quest_on"
+        android:textColor="#f5b042"
+        android:background="@drawable/level_button"
+        android:layout_marginStart="10dp" />
+
+
+
+
+
+
+</RelativeLayout>

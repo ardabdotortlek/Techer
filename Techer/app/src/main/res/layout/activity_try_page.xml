@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelPages.TryPage"
+    android:background="@drawable/background">
+
+    <android.widget.Button
+        android:id="@+id/FiveQuestion"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_above="@id/TenQuestion"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_menu_button"
+        android:text="@string/FiveQuestions"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <android.widget.Button
+        android:id="@+id/TenQuestion"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/main_menu_button"
+        android:text="@string/TenQuestions"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaButton" />
+
+    <android.widget.Button
+        android:id="@+id/FifteenQuestion"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/TenQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/main_menu_button"
+        android:text="@string/FifteenQuestions"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_back_button"
+        />
+
+
+
+
+</RelativeLayout>

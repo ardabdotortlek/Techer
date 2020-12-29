@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTecher">
+
+
+            <ImageView
+                android:id="@+id/imageViewClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorTecher"
+                android:layout_toRightOf="@id/textView"
+                app:srcCompat="@drawable/ic_close"
+                tools:ignore="VectorDrawableCompat"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievement Unlocked"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imageView2"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/textView"
+                app:srcCompat="@drawable/image_77" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="center"
+                android:layout_below="@id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="You have successfully finished variables. Now you have this achievement"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/btnOK"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_bg"
+                android:text="Go back to Hardware page"
+                android:textColor="@color/white"
+                app:iconTint="#FFFFFF"
+                android:layout_below="@id/textView2"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

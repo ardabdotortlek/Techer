@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainMenuP.HardwarePage">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/biggestheader"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/hardware"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+
+    <android.widget.Button
+        android:id="@+id/MonitorInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/comp4Info"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/monitor0"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/monitor"
+        android:textColor="#f5b042"
+        android:textSize="11sp" />
+
+
+
+    <android.widget.Button
+        android:id="@+id/MotherboardInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/comp4Info"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Motherboard"
+        android:background="@drawable/motherboard0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"/>
+
+    <android.widget.Button
+        android:id="@+id/CPUInfo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/comp4Info"
+        android:layout_marginStart="295dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/CPU"
+        android:background="@drawable/cpu0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"/>
+
+
+    <android.widget.Button
+        android:id="@+id/comp4Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/RAM"
+        android:background="@drawable/ram0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"/>
+
+    <android.widget.Button
+        android:id="@+id/Comps5Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/MonitorInfo"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Expansion_cards"
+        android:background="@drawable/expansion_cards0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"/>
+
+    <android.widget.Button
+        android:id="@+id/Comps6Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/MonitorInfo"
+        android:layout_marginStart="295dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Power_supply_unit"
+        android:background="@drawable/power_supply_unit0"
+        android:textColor="#f5b042"
+        android:textSize="10sp"/>
+
+    <android.widget.Button
+        android:id="@+id/Comps7Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/comp4Info"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/optical_disc_drive0"
+        android:textColor="#f5b042"
+        android:textSize="10sp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Optical_disc_drive"/>
+
+    <android.widget.Button
+        android:id="@+id/Comps8Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/Comps6Info"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/hard_disc_drive0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Hard_disc_drive"/>
+
+
+    <android.widget.Button
+        android:id="@+id/Comps9Info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/Comps6Info"
+        android:layout_marginStart="295dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_device0"
+        android:textColor="#f5b042"
+        android:textSize="11sp"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/Input_devices"/>
+
+
+    <android.widget.Button
+        android:id="@+id/tryInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/Comps8Info"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/try_yourself"
+        android:textColor="#f5b042"
+        android:textSize="25sp" />
+
+    <android.widget.Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_back_button" />
+
+
+</RelativeLayout>
